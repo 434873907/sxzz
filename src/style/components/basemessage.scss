@@ -1,0 +1,86 @@
+.base-top{
+  width:100%;
+  box-sizing: border-box;
+}
+.base-appoint{
+  width:100%;
+  box-sizing: border-box;
+  padding:0px 20px;
+}
+.base-message{
+  box-sizing: border-box;
+  padding:10px 20px;
+  background: #fff;
+  width:100%;
+  border-left:1px solid #E3E1E2;
+  border-right:1px solid #E3E1E2;
+  border-bottom:1px solid #E3E1E2;
+}
+.base-docs{
+  width:100%;
+  position:relative;
+  margin-top:20px;
+}
+.el-form-item{
+  height:36px;
+  float: left;
+}
+ .el-form-item__error{
+  color: #ff4949;
+  font-size: 12px;
+  line-height: 1;
+  padding-top: 4px;
+  position: absolute;
+  top:40px;
+  left: 0;
+}
+.base-box input{
+  height:26px;
+}
+.base-con{
+  width:100%;
+  height:36px;
+  overflow: hidden;
+  position:relative;
+}
+
+.base-box{
+  width:100%;
+  height:36px;
+}
+.base-doc .btn{
+  border-color: #00b2b1;
+  background-color: #00b2b1;
+}
+.base-con .btn{
+  border-color: #00b2b1;
+  background-color: #00b2b1;
+}
+.base-doc{
+  box-sizing: border-box;
+  padding:10px 0px;
+}
+.base-docs .el-input--small .el-input__inner{
+  height:24px;
+}
+.el-form-item{
+  margin-bottom:20px;
+}
+.add-pic-list{
+  margin-left:70px;
+}
+.ghost-btn-wrap{
+  margin-left:70px;
+  margin-top:10px;
+}
+.add-pic-list .el-upload-list .el-upload-list__item{
+  width:66px;
+  height:66px;
+}
+.base-idcard{
+  float:left;
+}
+.base-docs label{
+  font-size: 14px;
+  color:#818181;
+}

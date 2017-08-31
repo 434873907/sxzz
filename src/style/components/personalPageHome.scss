@@ -1,0 +1,101 @@
+/*个人主页首页样式*/
+.personal-page-home{
+    .personal-tabLine{
+        background-color: #f9f9f9;
+    }
+}
+/*个人中心 文字列表样式*/
+.personal-page-home{
+    .personal-article-table{
+        height: 401px;
+    }
+}
+/*个人中心文章页面样式*/
+.article-title{
+    text-align: center;
+}
+/*个人中心 评价列表样式*/
+.evaluation-list{
+    background-color: #fff;
+    padding-left: 30px;
+    height: 430px;
+}
+.evaluation-item{
+    color: #a1a2a3;
+}
+.eval-item-part{
+    height: 22px;
+    line-height: 25px;
+}
+.eval-rate{
+    display: inline-block;
+    vertical-align: middle;
+    /*星星大小*/
+    .el-rate__icon{
+        font-size: 15px;
+    }
+}
+/*个人中心侧边栏样式*/
+.personal-item1{
+    justify-content: space-around;
+}
+.personal-info{
+    text-align: center;
+    margin: 5px 0;
+}
+/*.side-bar-personal-title{
+    color: #4a5f84;
+}*/
+/*评分样式*/
+.rate{
+    margin-left: 25px;
+}
+.rate-link{
+    margin-left: 5px;
+    color: #4a5f84;
+}
+.personal-page-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.personal-yygh{
+    background-image: url("../images/icon-personal-yygh.png");
+}
+.personal-twzx{
+    background-image: url("../images/icon-personal-twzx.png");
+}
+.personal-spzx{
+    background-image: url("../images/icon-personal-spzx.png");
+}
+.personal-item2{
+    display: flex;
+    justify-content: space-around;
+    background-color: $cBlue6;
+    text-align: center;
+    .item{
+        flex: 1;
+        color: #132f5e;
+    }
+    .item2-p{
+        line-height: 32px;
+    }
+}
+.personal-item3{
+    padding: 0 16px;
+}
+.personal-content-title{
+    color: $cBlue6;
+    line-height: 25px;
+    margin-top: 15px;
+    span{
+        font-size: 12px;
+    }
+}
+.personal-content-text{
+    color: #fff;
+    font-size: 13px;
+    line-height: 23px;
+}

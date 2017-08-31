@@ -1,0 +1,287 @@
+/*会诊单样式*/
+.consul-sheet-wrap{
+    border: 1px solid $cWhite4;
+    width: 98%;
+    height: 97%;
+    font-size: 13px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.consult-content-wrap{
+    padding: 10px 20px;
+    .el-form-item__label{//el-form-item 标签大小
+        font-size: 12px;
+        padding-top: 8px;
+        color: black;
+    }
+    .el-textarea__inner{//textarea
+        font-size: 12px;
+    }
+}
+.evaluate-launch-wrap{
+    .el-form-item__label{//el-form-item 标签大小
+        font-size: 12px;
+        padding-top: 8px;
+        color: black;
+    }
+    .el-textarea__inner{//textarea
+        font-size: 12px;
+    }
+    .el-form-item{
+        margin-bottom: 10px;
+    }
+    .el-form-item__label{
+        padding-left: 0;
+        padding-right: 0;
+        //width: 67px !important;
+    }
+    .el-form-item__content{
+        //margin-left: 67px !important;
+    }
+}
+.launch-wrap{
+    .el-form-item__label{//el-form-item 标签大小
+        font-size: 12px;
+        padding-top: 8px;
+        color: black;
+    }
+    .el-textarea__inner{//textarea
+        font-size: 12px;
+    }
+    .el-form-item{
+        margin-bottom: 10px;
+    }
+    .el-form-item__label{
+        padding-left: 0;
+        padding-right: 0;
+        width: 67px !important;
+    }
+    .el-form-item__content{
+        margin-left: 67px !important;
+    }
+}
+.deal-launch-wrap{
+    .el-form-item__label{//el-form-item 标签大小
+        font-size: 12px;
+        padding-top: 8px;
+        color: black;
+    }
+    .el-textarea__inner{//textarea
+        font-size: 12px;
+    }
+    .el-form-item{
+        margin-bottom: 10px;
+    }
+    .el-form-item__label{
+        padding-left: 0;
+        padding-right: 0;
+        width: 67px !important;
+    }
+    .el-form-item__content{
+        margin-left: 67px !important;
+    }
+}
+.consult-time-wrap{
+    margin-left: 88px;
+}
+.order-num{
+    color: #8c8c8c;
+}
+.hope-time{
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+.create-time{
+    text-align: right;
+}
+.data-ready{
+    margin-left: 92px;
+}
+.part{
+    margin-bottom: 6px;
+    background-color: #fff;
+}
+.consul-part1{
+    background-color: #fff;
+}
+.patient-info{
+    padding: 15px 20px;
+    background-color: #fafafa;
+    .name{
+        color: #444445;
+    }
+}
+.patient-list-item{
+    color: #909192;
+    vertical-align: sub;
+    margin-right: 18px;
+}
+.patient-content{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666665;
+    text-indent: 2em;
+}
+.patient-form{
+    .el-form-item__label{
+        line-height: 20px;
+        color: #444445;
+    }
+}
+.consul-radio-group{
+    display: block;
+    padding: 10px 0;
+}
+.invite-btn{
+    margin-top: 6px;
+}
+.consul-form-item{
+    line-height: 30px;
+    .label-title{
+        box-sizing: border-box;
+        width: 91px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .label-content{
+        margin-right: 30px;
+    }
+    .p-title{
+        margin: 10px 0;
+    }
+    .radio-arrange{
+        display: inline;
+    }
+}
+.sheet-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff;
+}
+.number-wrap{
+    height: 40px;
+    line-height: 40px;
+}
+.sheet-title{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid $cWhite4;
+}
+.fee-num{
+    //font-weight: 600;
+    color: #ff0242;
+}
+.el-form-item{
+    .item-text{
+        line-height: 50px;
+        textarea{
+            border-radius: 0;
+        }
+    }
+}
+.item-content{
+    box-sizing: border-box;
+    //padding-left: 25px;
+    font-size: 13px;
+    border: 1px solid #e3e1e2;
+    background-color: $cWhite5;
+}
+.item-pic{
+    box-sizing: border-box;
+    //padding: 3px;
+    //background-color: #ececea;
+}
+.apply-info{
+    color: #bebebe;
+}
+.consul-part-input{
+    width: 180px;
+    border-bottom: 1px solid #8f8b8c;
+}
+.part-top-item{
+    float: left;
+    margin: 20px 20px 20px 0;
+
+
+}
+.consul-part-bottom{
+    color: #d5d5d5;
+    .consul-part-input{
+        border-color: #d5d5d5;
+    }
+}
+.deal-sheet-wrap{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/*上传文件样式*/
+.add-pic-list{
+    display: flex;
+    align-items: center;
+    //overflow-x: auto;
+    .picture-item{
+        width: 100%;
+    }
+    .picture-input{
+        height: 88px;
+        width: 88px;
+        opacity: 0;
+    }
+    .el-upload-list{
+        .el-upload-list__item{
+            width: 88px;
+            height: 88px;
+        }
+        .el-progress-circle{//进度圈
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .el-upload{
+        //margin: 10px 20px 0 0;
+        position: relative;
+        width: 88px;
+        height: 88px;
+        border: 1px solid $cWhite2;
+        cursor: pointer;
+        &:hover{
+            border: 1px solid $cBlue6;
+        }
+        .el-icon-plus{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -14px;
+            margin-top: -14px;
+        }
+        .el-upload__inner{
+            width: 88px;
+            height: 88px;
+            .el-upload__input{
+                width: 88px;
+                height: 88px;
+                opacity: 0;
+            }
+            .icon-upload{
+                width: 88px;
+                height: 88px;
+                position: absolute;
+                //z-index: 5000;
+                background: url("../images/icon-upload.png") no-repeat;
+            }
+        }
+        .el-dragger__cover__progress{
+            width: 88px;
+            .el-progress-bar__inner{
+                background-color: $cBlue6;
+            }
+        }
+    }
+
+}
+.el-upload-list--text{
+    width: 200px;
+}

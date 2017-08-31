@@ -1,0 +1,14 @@
+/*footer组件*/
+@import "common";
+.footer{
+    position: relative;
+    background-color: #f1f1f1;
+}
+.footer-pagination{
+    //margin-top: 39px;
+    position: absolute;
+    //top: 50%;
+    top: 20px;
+    right: 20px;
+    transform: translateY(-50%);
+}

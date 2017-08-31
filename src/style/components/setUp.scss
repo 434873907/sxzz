@@ -1,0 +1,245 @@
+/*设置页我的信息页面样式*/
+
+.set-form-wrap{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    .save-btn{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        @extend %blueBtn;
+    }
+}
+/*设置页业务设置样式*/
+.business-item-title{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 600;
+}
+/*滑块样式*/
+.switch-wrap{
+    border: 1px solid $cBlue6;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    position: relative;
+    .business-mask{
+        position: absolute;
+        border-radius: 4px;
+        background-color: $cBlue6;
+        transition: 0.3s;
+        z-index: -1;
+    }
+    /*是否移动背景样式*/
+    .move{
+        margin-left: 80px;
+    }
+    .switch-btn{
+        border-radius: 4px;
+        transition: 0.3s;
+    }
+}
+.business-item-label{
+    line-height: 34px;
+}
+
+/*s设置页修改密码样式*/
+.captcha-span{
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+.tip-p{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+/*设置页头部样式*/
+.set-content-list{
+    color: #e9eaec;
+}
+/*返回按钮*/
+.set-header-top{
+    padding-left: 30px;
+    color: #333333;
+}
+.income-show{
+    background-color: $cWhite5;
+}
+
+/*设置页我的收入样式*/
+.income-wrap{
+    padding: 0 25px;
+    /*收入列表高度*/
+    .income-table-wrap{
+        height: 280px;
+    }
+}
+.income-show-content{
+    padding-top: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/*设置我的头像页样式*/
+.my-avatar{
+    overflow-y: auto;
+}
+.avatar-content{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.avatar-btn-wrap{
+    text-align: left;
+    position: relative;
+    p{
+        font-size: 14px;
+        color: #afafaf;
+    }
+}
+.pic-file-input{
+    position: absolute;
+    opacity: 0;
+}
+.upload-avatar-btn{
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    padding-left: 25px;
+}
+.upload-avatar{
+    background-image: url("../images/icon-upload-avatar.png");
+}
+.upload-camera{
+    background-image: url("../images/icon-camera.png");
+}
+.show-avatar-wrap{
+    padding-top: 1px;
+    background-color: #f3f3f3;
+    background-image: url("../images/icon-upload-arrow.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.canvas-wrap{
+    position: relative;
+}
+.avatar-show-img{
+    display: block;
+}
+
+.mask{
+    position: absolute;
+    top: 0;
+    left: 25px;
+    box-sizing: border-box;
+    border: 1px solid #b7ab2b;
+    cursor: move;
+    div{
+        width: 6px;
+        height: 6px;
+        position: absolute;
+        background-color: #b7ab2b;
+    }
+}
+.left-top{
+    left: -3px;
+    top: -3px;
+    cursor:nw-resize;
+}
+.left-bottom{
+    left: -3px;
+    bottom: -3px;
+    cursor:sw-resize;
+}
+.right-top{
+    right: -3px;
+    top: -3px;
+    cursor:ne-resize;
+}
+.right-bottom{
+    right: -3px;
+    bottom: -3px;
+    cursor:se-resize;
+}
+.show-avatar-l{
+    padding-right: 30px;
+    padding-top: 20px;
+    border-right: 1px solid #e6e6e6;
+}
+.avatar-show-img{
+    display: block;
+    max-height: 300px;
+    max-width: 300px;
+}
+.show-wrap-title{
+    color: #4c4c4c;
+}
+.show-avatar-r{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.avatar-save-btn{
+    display: block;
+    margin-left: 250px;
+}
+.avatar-center{
+    display: block;
+    margin: 0 auto;
+}
+.avatar-img-180{
+    max-width: 180px;
+    max-height: 180px;
+}
+.avatar-img-50{
+    max-width: 50px;
+    max-height: 50px;
+}
+.avatar-img-20{
+    max-width: 20px;
+    max-height: 20px;
+}
+
+/*设置我的名片样式*/
+.card{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.card-wrap{
+    padding: 20px 80px;
+    height: 100%;
+}
+.card-item-title{
+    font-size: 18px;
+    padding: 15px 0;
+
+}
+.card-label{
+    line-height: 30px;
+    text-align: right;
+}
+.card-textarea{
+    width: 100%;
+    .el-textarea__inner{
+        height: 100%;
+        resize: none;
+        border-radius: 0;
+    }
+}
+/*设置侧边栏样式*/
+.set-side-bar{
+    border-right: 1px solid #e6e6e6;
+    line-height: 35px;
+    font-size: 14px;
+}
+.set-side-list{
+    padding-left: 59px;
+    padding-top: 25px;
+}
+.side-item-title{
+    font-weight: 600;
+}
+.side-item{
+    height: 35px;
+}

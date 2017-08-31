@@ -1,0 +1,94 @@
+@import "common";
+.article-top{
+    height: 46px;
+    background-color: #f1f1f1;
+}
+.article-search-input{
+    box-sizing: border-box;
+    height: 28px;
+    width: 260px;
+    margin-left: 34px;
+    padding-left: 38px;
+    border: 1px solid #ececea;
+    background-image: url("../images/icon-article-search.png");
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+}
+.article-search-btn{
+    box-sizing: border-box;
+    height: 28px;
+    width: 57px;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #e3e1e2;
+    &:hover{
+        background-color: #b3b1b2;
+    }
+}
+.article-write-btn{
+    height: 26px;
+    width: 89px;
+    margin-top: 10px;
+    margin-left: 18px;
+    padding-left: 20px;
+    color: #ffffff;
+    border-radius: 4px;
+    @extend %blueBtn;
+    background-image: url("../images/icon-article-write.png");
+    background-repeat: no-repeat;
+    background-position: 12px 50%;
+}
+
+/*编写文章页样式*/
+@import "common";
+.article-form-wrap{
+    width: 100%;
+}
+.article-form{
+    font-size: 14px;
+    padding: 10px 30px 20px 25px;
+    background-color: #fff;
+    .form-item{
+        color: #666665;
+    }
+}
+.article-form-input{
+    box-sizing: border-box;
+    width: 370px;
+}
+.article-textarea{
+    textarea{
+        height: 310px;
+        margin-right: 30px;
+        resize: none;
+    }
+}
+.article-from-btn{
+    float: right;
+    width: 125px;
+    height: 36px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: 600;
+    @extend %blueBtn;
+}
+/*列表样式*/
+.table-wrap{
+    .table-btn-wrap{
+        .article-table-btn{
+            border: none;
+            background-color: transparent;
+            width: 30px;
+            &:hover{
+                color: #008786;
+            }
+        }
+    }
+}
+/*增加列表高度显示10个行数*/
+.article{
+    .article-table-wrap{
+        height: 401px;
+    }
+}

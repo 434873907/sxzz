@@ -1,0 +1,196 @@
+@import "common";
+
+.mypatient{
+	.pat-top-tab{
+		background: $cWhite6;
+	}
+	.patient-search{
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+		.search-warp{
+			margin-top:0; 
+			.search-input{
+				width: 140px;
+			}
+		}
+		.group-send-btn{
+			height: 20px;
+			padding: 2px 5px;
+			line-height: 16px;
+		}
+	}
+	.icon-pat-info{
+		float: right;
+		margin:5px 15px 0 0; 
+		display: inline-block;
+		width: 18px;
+		height: 15px;
+		background: url("../images/icon-patinfo.png") no-repeat 100% 100%;
+	}
+	.icon-pat-info-active{
+		float: right;
+		margin:5px 15px 0 0; 
+		display: inline-block;
+		width: 18px;
+		height: 15px;
+		background: url("../images/icon-patinfo-active.png") no-repeat 100% 100%;
+	}
+	.part{
+		background-color: $cWhite6;
+	}
+	.sheet-top-info{
+		display: flex;
+		align-items: center;
+		padding: 10px 20px;
+		border-bottom: 5px solid $cWhite5;
+		.sheet-top-patinfo{
+			flex:1;
+			color: $cGray3;
+			font-size: 12px;
+			>span{
+				padding-left: 15px;
+				&:nth-of-type(2){
+					padding-left:0;
+				}
+			}
+			.pat-name{
+				padding-left: 0;
+				font-size: 14px;
+				color:#333;
+			}
+		}
+		.pat-set-vip{
+			width: 69px;
+			height: 21px;
+			padding: 0;
+			font-size: 12px;
+		}
+	}
+	.sheet-title-line{
+		display: flex;
+		align-items: center;
+		padding: 10px 20px;
+		.sheet-title-left{
+			flex: 1;
+		}
+		.sheet-title-edit{
+			width: 93px;
+			height: 21px;
+			padding: 0;
+			font-size: 12px;
+			border:1px solid $cWhite4;
+			span{
+				color: $cBlue6;
+			}
+			&:hover{
+				border:1px solid $cBlue6;
+				span{
+					color: $cBlue6;
+				}
+			}
+		}
+	}
+	.pat-basic-info{
+		background-color: white;
+		height: 46px;
+		border-bottom: 5px solid $cWhite5;
+		p{
+			display: inline-block;
+			color: $cGray3;
+			padding-left: 15px;
+			line-height: 46px;
+			&:first-child{
+				padding-left:30px;
+			};
+		}
+	}
+	.pat-record-info{
+		background-color: white;
+		padding: 20px;
+		border-bottom: 10px solid $cWhite5;
+		.record-time{
+			padding-bottom: 10px;
+		}
+		.record-content{
+			font-size: 12px;
+			color: $cGray3;
+			line-height: 18px;
+		}
+		.record-picture{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-top: 5px;
+			img{
+				width: 120px;
+				height: 120px;
+				margin-right: 15px;
+			}
+		}
+	}
+}
+.patinfo-edit-box{
+	z-index: 2033;
+	background-color:rgba(0,0,0,0.5); 
+	.edit-patinfo-line{
+		display: flex;
+		align-items: center;
+		padding: 0 15px;
+		.edit-patinfo-input{
+			flex: 1;
+		}
+	}
+	button{
+		width: 50%;
+		margin: 0 25% 20px 25%;
+		background-color:$cBlue6;
+		border-color: $cBlue6;
+		&:hover{
+			background-color: $cBlue6;
+			border-color: $cBlue6;
+		};
+	}
+	.add-record-box{
+		width: 600px;
+	}
+	.edit-box-tips{
+		padding: 10px 0 5px;
+	}
+}
+.el-message-box__close:hover{
+	color: $cBlue6;
+}
+
+/*
+.el-upload{
+	margin: 10px 20px 0 0;
+	width: 88px;
+	height: 88px;
+	border: 1px solid $cWhite2;
+	cursor: pointer;
+	&:hover{
+		border: 1px solid $cBlue6;
+	}
+	.el-upload__inner{
+		width: 88px;
+		height: 88px;
+		.el-upload__input{
+			width: 88px;
+			height: 88px;
+		}
+		.icon-upload{
+			width: 88px;
+			height: 88px;
+			position: absolute;
+			z-index: 5000;
+			background: url("../images/icon-upload.png") no-repeat;
+		}
+	}
+	.el-dragger__cover__progress{
+		width: 88px;
+		.el-progress-bar__inner{
+			background-color: $cBlue6;
+		}
+	}
+}*/

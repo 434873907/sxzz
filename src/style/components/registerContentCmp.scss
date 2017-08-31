@@ -1,0 +1,68 @@
+@import "common";
+.form-wrap{
+    width: 640px;
+    margin: 0 auto;
+    .form-item{
+        margin-bottom: 14px;
+        height: 30px;
+    }
+    .register-btn{
+        width: 140px;
+        height: 36px;
+        @extend %blueBtn;
+    }
+    .captcha-btn{
+        height: 30px;
+        width: 123px;
+        margin-left: 10px;
+        padding: 0;
+        line-height: 26px;
+        @extend %blueBtn;
+    }
+}
+/*====
+   注册页样式
+ =====*/
+.form-title{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.form-input{
+    box-sizing: border-box;
+    float: left;
+    width: 198px;
+    margin-right: 10px;
+    /*修改element ui input字体边框样式*/
+    input{
+        color: $cGray4;
+        border-color: #bfcbd9;
+        border-radius: 0;
+    }
+
+}
+.captcha-input{
+    width: 120px;
+}
+.form-item{
+    /*element ui 修改label样式*/
+    .el-form-item__label{
+        padding: 0 12px 0 0 ;
+        line-height: 30px;
+        height: 30px;
+        color: #1a1a1a;
+    }
+}
+/*注册按钮*/
+.register-btn{
+    display: block;
+    margin: 0 auto;
+}
+/*提示*/
+.form-tips{
+    line-height: 30px;
+    height: 30px;
+    vertical-align: top;
+    color: #666666;
+}
+

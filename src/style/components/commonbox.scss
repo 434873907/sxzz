@@ -1,0 +1,70 @@
+.commonbox-box{
+  width:60%;
+  box-sizing:border-box;
+  margin-left:20%;
+  border:1px solid #ccc;
+  padding: 20px 0px;
+  position:relative;
+  margin-top:20px;
+}
+.commonbox-card{
+  width:50%;
+  margin-left:25%;
+  height:50px;
+  background: #ccc;
+  margin-top:10px;
+}
+.commonbox-box h1{
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 50px;
+  text-align: center;
+}
+.commonbox-con{
+  width:80%;
+  margin-left:10%;
+  margin-top:10px;
+  height:350px;
+}
+.commonbox-news{
+  box-sizing: border-box;
+  width:49%;
+  float:left;
+}
+.commonbox-news span{
+  font-size:16px;
+  line-height:30px;
+  color:#504F54;
+}
+.commonbox-news div{
+  height:30px;
+}
+.commonbox-btn{
+  width:30%;
+  height:60px;
+  position:absolute;
+  right:20px;
+  bottom:0px;
+}
+.success{
+  font-size: 64px;
+  text-align: center;
+}
+.commonboxbtn{
+  border:1px solid #ccc;
+}
+.commonboxbtn:hover{
+  border:1px solid #01abac;
+}
+.success1{
+  border:1px solid #ccc;
+  color:#01abac;
+
+}
+.success1:hover{
+  border:1px solid #01abac;
+  color:#01abac;
+}
+.success1:focus{
+  color:#01abac;
+}

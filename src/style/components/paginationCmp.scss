@@ -1,0 +1,42 @@
+/*分页组件样式*/
+@import "common";
+.pagination{
+    height: 30px;
+    font-size: 0;
+    .confirm-btn{
+        @extend %blueBtn
+    }
+}
+.page-input{
+    width: 30px;
+    height: 20px;
+}
+.page-btn{
+    font-size: 0;
+    float: left;
+    width: 20px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.page-first-btn{
+    background: url("../images/icon-page-first.png") no-repeat center;
+}
+.page-pre-btn{
+    background: url("../images/icon-page-pre.png") no-repeat center;
+}
+.page-next-btn{
+    background: url("../images/icon-page-next.png") no-repeat center;
+}
+.page-last-btn{
+    background: url("../images/icon-page-last.png") no-repeat center;
+}
+.page-span{
+    display: inline-block;
+    font-size: 14px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 4px;
+}

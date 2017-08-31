@@ -1,0 +1,247 @@
+/*远程会诊样式*/
+@import "common";
+.remote-consultation-wrap{
+    background-color: #ffffff;
+}
+.search-content-bar{
+    height: 50px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    line-height: 50px;
+    .btn{
+        height: 28px;
+        @extend %blueBtn;
+    }
+}
+.search-content-input{
+    height: 28px;
+    width: 200px;
+    box-sizing: border-box;
+    margin-top: 11px;
+    padding: 0 5px;
+    border: 1px solid $cGray5;
+}
+.search-btn{
+    width: 64px;
+}
+.sponsored-btn{
+    width: 81px;
+}
+/*远程会诊待处理页面样式*/
+.deal-content{
+    height: 98%;
+    overflow: hidden;
+}
+.part-left{
+    box-sizing: border-box;
+    //width: 240px;
+    width: 245px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-right: 6px;
+    background-color: #fff;
+    border: 1px solid $cWhite4;
+}
+.consul-deal-part{
+    background: none;
+}
+.part-left-top{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 18px;
+    border-bottom: 1px solid $cWhite4;
+}
+/*搜索*/
+.search-warp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid $cWhite4;
+    .search-input{
+        height: 20px;
+        width: 167px;
+        padding-left: 5px;
+        font-size: 12px;
+        vertical-align: top;
+    }
+    .search-btn{
+        height: 20px;
+        width: 26px;
+        background-color: #e2e0e1;
+        background-image: url("../images/icon-content-search.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+/*患者列表*/
+.part-left-item{
+    padding: 10px 15px;
+    font-size: 12px;
+    vertical-align: top;
+    position: relative;
+    &:hover{
+        background-color: $cWhite4;
+    }
+    .item-pic{
+        width: 25px;
+        height: 25px;
+    }
+    .item-a{
+        display: block;
+        height: 25px;
+        color: #909193;
+
+    }
+    .item-btn{
+        width: 62px;
+        height: 24px;
+        margin-left: 15px;
+        line-height: 24px;
+        padding: 0;
+        vertical-align: top;
+    }
+    &>span{
+        vertical-align: top;
+        line-height: 25px;
+    }
+}
+.clicked-item{
+    background-color: $cWhite4;
+}
+.part-right{
+    margin-left: 4px;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid $cWhite4;
+}
+/*单选按钮*/
+.consul-form-item{
+    .el-radio{
+        display: block;
+        margin: 0;
+        padding: 5px 0;
+        font-size: 12px;
+    }
+    .el-radio__label{
+        font-size: 12px;
+    }
+
+    .select-doctor{
+        display: inline-block;
+    }
+    .el-input__inner{
+        border-radius: 0;
+        border-color: $cWhite4;
+    }
+    .reject-content-input{
+        height: 57px;
+        display: inline-block;
+        border: none;
+        .el-input__inner{
+            height: 57px;
+            border:1px solid $cWhite4;
+        }
+    }
+}
+.data-input{
+    box-sizing: border-box;
+    border:1px solid $cWhite4;
+}
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+}
+/*远程会诊进入会诊页样式*/
+.live-wrap{
+    margin: 0 auto;
+    width:800px;
+    //background-color: #5b5b5b;
+    //width: 640px;
+}
+
+.live-bottom{
+    box-sizing: border-box;
+    background-color: #404040;
+    padding-top: 12.5px;
+    padding-right: 8px;
+    .el-button{
+        padding: 0;
+
+    }
+}
+
+/*远程会诊评价页样式*/
+.evaluate-bottom-content{
+    .el-form-item{
+        margin-bottom: 0;
+    }
+}
+/*发起会诊页面样式*/
+.consul-launch{
+    //overflow-x: hidden;
+    overflow-y: auto;
+}
+.launch-wrap{
+    width: 95%;
+    background-color: #fff;
+    font-size: 12px;
+    //padding: 10px 20px;
+    .el-form-item__label{
+        padding-left: 6px;
+    }
+}
+.launch-title{
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    border-bottom: 1px solid $cWhite4;
+}
+.launch-input{
+    display: inline-block;
+    .el-input__inner{
+        height: 24px;
+        border-radius: 0;
+        border: 1px solid $cWhite4;
+    }
+}
+.el-form {
+    position: relative;
+    .required-mark{//必填项 星号
+        position: absolute;
+        top: 7px;
+        color: #ff4949;
+    }
+}
+/*拒绝会诊单样式*/
+.reject-div{
+    width: 98%;
+}
+.reject-input{
+    box-sizing: border-box;
+    width: 94%;
+    padding-left: 10px;
+}
+.background-gray-color{
+    background-color: #F1F1F1;
+
+}
+
+/*可能无用*/
+/*.floatHospital,.floatRoom,.floatDoctor{
+    width: 33.3%;
+    text-align: center;
+}
+.invitaion-doctor{
+    z-index: 2033;
+    background-color:rgba(0,0,0,0.5);
+}*/
+.linecon{
+    width:90%;
+    margin-left:6%;
+    margin-top:-22px;
+}
